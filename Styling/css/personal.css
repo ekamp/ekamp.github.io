@@ -79,10 +79,5 @@ a:link, a:visited {
 }
 
 .well-transparent {
-  background: none;
-}
-
-.well-transparent .well-body{
   background: rgba(46, 51, 56, 0.2)!important;
 }
-
