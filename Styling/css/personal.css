@@ -77,3 +77,12 @@ a:link, a:visited {
 .panel-transparent .panel-body{
     background: rgba(46, 51, 56, 0.2)!important;
 }
+
+.well-transparent {
+  background: none;
+}
+
+.well-transparent .well-body{
+  background: rgba(46, 51, 56, 0.2)!important;
+}
+
