@@ -87,11 +87,8 @@ header h1 {
   margin: 0 0 0 4px;
 }
 
-.mirror div{
-  -webkit-transform:rotateY(180deg);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
+header div {
+  margin: 0 0 0 4px;
 }
 
 .panel-transparent .panel-heading{
