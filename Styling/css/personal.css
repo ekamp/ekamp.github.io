@@ -81,6 +81,14 @@ a:link, a:visited {
     font-size: large;
 }
 
+.mirror{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
 .panel-transparent .panel-heading{
     background: rgba(122, 130, 136, 0.2)!important;
 }
