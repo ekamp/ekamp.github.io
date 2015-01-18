@@ -3,7 +3,6 @@
 @font-face {
     font-family: 'Roboto'; /*a name to be used later*/
     src: url('/Styling/fonts/Roboto-Bold.ttf'); /*URL to font*/
-    font-size: 5.0em;
 }
 
 body {
@@ -76,10 +75,16 @@ a:link, a:visited {
     background: none;
 }
 
-.h1-roboto{
-    font-family: 'Roboto';
-    color: #FAFAFA;
-    font-size: large;
+header {
+  padding: 40px;
+}
+header h1 {
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  color: #FAFAFA;
+  font-size: 50px;
+  letter-spacing: 12px;
+  margin: 0 0 0 4px;
 }
 
 .mirror div{
