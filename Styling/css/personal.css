@@ -75,9 +75,10 @@ a:link, a:visited {
     background: none;
 }
 
-.h2-roboto{
+.h1-roboto{
     font-family: 'Roboto';
     color: #FAFAFA;
+    font-size: large;
 }
 
 .panel-transparent .panel-heading{
