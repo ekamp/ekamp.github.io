@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Roboto'; /*a name to be used later*/
     src: url('/Styling/fonts/Roboto-Bold.ttf'); /*URL to font*/
-    font-size: 1.7em;
+    font-size: 5.0em;
 }
 
 body {
