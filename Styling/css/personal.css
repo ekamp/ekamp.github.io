@@ -1,5 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
 
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url('/Styling/fonts/Roboto-Bold.ttf'); /*URL to font*/
+}
+
 body {
 	background: url('http://ekamp.github.io/images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -68,6 +73,11 @@ a:link, a:visited {
 
 .panel-transparent {
     background: none;
+}
+
+.h2-roboto{
+    font-family: 'Roboto';
+    color: #FAFAFA;
 }
 
 .panel-transparent .panel-heading{
