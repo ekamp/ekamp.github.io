@@ -13,16 +13,6 @@ function onLinkedInClick(){
 	window.location.replace("https://www.linkedin.com/profile/view?id=219267740&trk=nav_responsive_tab_profile");
 }
 
-function onHoverEmail()
-{
-    $("#email").attr('src', 'images/aboutR.png');
-}
-
-function offHoverEmail()
-{
-    $("#menuImg").attr('src', 'images/about.png');
-}
-
 /** OnClick Functions to be used for contact information END **/
 
 /** JQuery onHover event listener**/
@@ -30,7 +20,7 @@ function offHoverEmail()
 $(document).ready(function() {  
 	$("#linkedin").hover(
 		function(){
-			$( this ).fadeOut( 100 );
-  			$( this ).fadeIn( 500 );
+			$( this ).fadeOut( 50 );
+  			// $( this ).fadeIn( 500 );
 		});
 }); 
