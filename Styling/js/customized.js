@@ -17,10 +17,22 @@ function onLinkedInClick(){
 
 /** JQuery onHover event listener**/
 
+var playingEmail = true;
+
+function glowEmail(){
+  if(playing){
+    $('.emailImages img:eq(1)').fadeIn(700, function(){
+      $(this).fadeOut(700,glowEmail);
+    });
+  }
+}
+
 $(document).ready(function() {  
 	$("#linkedin").hover(
 		function(){
 			$( this ).fadeOut( 50 );
-  			// $( this ).fadeIn( 500 );
+  			$( this ).fadeIn( 500 );
 		});
+	$("#emailImages").hover(
+		glowEmail();
 }); 
