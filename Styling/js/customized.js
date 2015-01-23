@@ -20,7 +20,7 @@ function onLinkedInClick(){
 var playingEmail = true;
 
 function glowEmail(){
-  if(playing){
+  if(playingEmail){
     $('.emailImages img:eq(1)').fadeIn(700, function(){
       $(this).fadeOut(700,glowEmail);
     });
