@@ -40,6 +40,6 @@ $(document).ready(function() {
 	$("#emailImages").hover(
 		function(){
 			fadeInBrightEmail();
-			fadeInOriginalEmail();
+			// fadeInOriginalEmail();
 		});
 	});
