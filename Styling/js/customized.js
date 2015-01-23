@@ -39,7 +39,7 @@ $(document).ready(function() {
 		});
 	$("#emailImages").hover(
 		function(){
-			glowEmail();
+			fadeInBrightEmail();
 			fadeInOriginalEmail();
 		});
 	});
