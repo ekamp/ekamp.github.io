@@ -17,14 +17,11 @@ function onLinkedInClick(){
 
 /** JQuery onHover event listener**/
 
-var playingEmail = true;
-
 function glowEmail(){
-  if(playingEmail){
-    $('.emailImages img:eq(1)').fadeIn(700, function(){
-      $(this).fadeOut(700,glowEmail);
-    });
-  }
+  $("#email").fadeOut(100, function{
+  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).attr("src", "/images/email_selected.png");
+  });
 }
 
 $(document).ready(function() {  
