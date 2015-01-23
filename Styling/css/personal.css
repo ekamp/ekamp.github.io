@@ -100,7 +100,8 @@ header div {
     box-shadow:         0px 0px 5px 0px rgba(0, 255, 0, 0.67);
 }*/
 
-.email .img-responsive {
+.email {
+  background-image: url('/images/email_selected.png');
 }
 
 .email:hover .img-responsive {
