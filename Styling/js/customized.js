@@ -37,9 +37,9 @@ $(document).ready(function() {
 			$( this ).fadeOut( 500 );
   			$( this ).fadeIn( 500 );
 		});
-	$("#emailImages").hover(
-		function(){
-			fadeInBrightEmail();
-			// fadeInOriginalEmail();
-		});
+	// $("#emailImages").hover(
+	// 	function(){
+	// 		fadeInBrightEmail();
+	// 		fadeInOriginalEmail();
+	// 	});
 	});
