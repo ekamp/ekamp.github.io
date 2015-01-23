@@ -18,8 +18,8 @@ function onLinkedInClick(){
 /** JQuery onHover event listener**/
 
 function glowEmail(){
-  $("#email").fadeOut(100, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  $("#email").fadeOut(300, function(){
+  	$(this).load(function() { $(this).fadeIn(300,glowEmail); }); 
   	$(this).attr("src", "/images/email_selected.png");
   });
 }
