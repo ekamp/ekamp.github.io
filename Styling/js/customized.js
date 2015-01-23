@@ -28,7 +28,7 @@ function offHoverEmail()
 /** JQuery onHover event listener**/
 
 $(document).ready(function() {  
-	$("linkedin").hover(
+	$("#linkedin").hover(
 		function(){
 			$( this ).fadeOut( 100 );
   			$( this ).fadeIn( 500 );
