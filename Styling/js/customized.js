@@ -17,21 +17,29 @@ function onLinkedInClick(){
 
 /** JQuery onHover event listener**/
 
-function glowEmail(){
+function fadeInBrightEmail(){
   $("#email").fadeOut(300, function(){
-  	$(this).load(function() { $(this).fadeIn(300,glowEmail); }); 
+  	$(this).load(function() { $(this).fadeIn(300); }); 
   	$(this).attr("src", "/images/email_selected.png");
+  });
+}
+
+function fadeInOriginalEmail(){
+	$("#email").fadeOut(300, function(){
+  	$(this).load(function() { $(this).fadeIn(300); }); 
+  	$(this).attr("src", "/images/email.png");
   });
 }
 
 $(document).ready(function() {  
 	$("#linkedin").hover(
 		function(){
-			$( this ).fadeOut( 50 );
+			$( this ).fadeOut( 500 );
   			$( this ).fadeIn( 500 );
 		});
 	$("#emailImages").hover(
 		function(){
 			glowEmail();
+			fadeInOriginalEmail();
 		});
 	});
