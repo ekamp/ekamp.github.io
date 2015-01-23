@@ -6,14 +6,14 @@ function onGitHubClick(){
 
 function fadeInBrightGitHub(){
   $("#github").fadeOut(200, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/github_selected.png");
   });
 }
 
 function fadeInOriginalGitHub(){
 	$("#github").fadeOut(200, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/github.png");
   });
 }
@@ -26,14 +26,14 @@ function onEmailClick(){
 
 function fadeInBrightEmail(){
   $("#email").fadeOut(200, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/email_selected.png");
   });
 }
 
 function fadeInOriginalEmail(){
-	$("#email").fadeOut(100, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+	$("#email").fadeOut(200, function(){
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/email.png");
   });
 }
@@ -46,14 +46,14 @@ function onLinkedInClick(){
 
 function fadeInBrightLinkedIn(){
   $("#linkedin").fadeOut(200, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/linkedin_selected.png");
   });
 }
 
 function fadeInOriginalLinkedIn(){
 	$("#linkedin").fadeOut(200, function(){
-  	$(this).load(function() { $(this).fadeIn(100); }); 
+  	$(this).load(function() { $(this).fadeIn(200); }); 
   	$(this).attr("src", "/images/linkedin.png");
   });
 }
