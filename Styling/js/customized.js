@@ -36,4 +36,5 @@ $(document).ready(function() {
 	$("#emailImages").hover(
 		function(){
 			glowEmail();
-		}); 
+		});
+	}
