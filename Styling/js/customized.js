@@ -18,7 +18,7 @@ function onLinkedInClick(){
 /** JQuery onHover event listener**/
 
 function glowEmail(){
-  $("#email").fadeOut(100, function{
+  $("#email").fadeOut(100, function(){
   	$(this).load(function() { $(this).fadeIn(100); }); 
   	$(this).attr("src", "/images/email_selected.png");
   });
