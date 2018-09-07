@@ -2,11 +2,9 @@
 
 $(function(){
   initGithubHoverEffect();
-  initEmailHoverEffect();
   initLinkedInHoverEffect();
 
   bindGithubOnClick();
-  bindEmailOnClick();
   bindLinkedInOnClick();
 });
 
@@ -17,14 +15,6 @@ function initGithubHoverEffect(){
     $(this).attr("src","/images/github_selected.png");
   }, function(){
     $(this).attr("src","/images/github.png");
-  });
-}
-
-function initEmailHoverEffect(){
-  $("#email").hover(function(){
-    $(this).attr("src", "/images/email_selected.png");
-  }, function(){
-    $(this).attr("src", "/images/email.png");
   });
 }
 
@@ -42,10 +32,6 @@ function bindGithubOnClick(){
   $("#github").click(onGitHubClick);
 }
 
-function bindEmailOnClick(){
-  $("#email").click(onEmailClick);
-}
-
 function bindLinkedInOnClick(){
   $("#linkedin").click(onLinkedInClick);
 }
@@ -54,10 +40,6 @@ function bindLinkedInOnClick(){
 
 function onGitHubClick(){
   window.location.replace("https://github.com/ekamp");
-}
-
-function onEmailClick(){
-	window.location.href = "mailto:user@ekamp14@gmail.com?subject=ContactFromWebSite";
 }
 
 function onLinkedInClick(){
